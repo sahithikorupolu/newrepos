@@ -1,0 +1,80 @@
+
+const HomeProduct = [
+    {
+        id:1,
+        Name:'TV',
+        price:'26000',
+        img:'image/p1.webp',
+        cat:'',
+        type:'new',
+        description:'about the tv'
+    
+    },
+    {
+        id:2,
+        Name:"LAPTOP",
+        price:'8000',
+        img:'image/p2.webp',
+        cat:'',
+        type:'new'
+    },
+    {
+        id:3,
+        Name:"WATCH",
+        price:'6000',
+        img:'image/p3.webp',
+        cat:'',
+        type:'new'
+    },
+    {
+        id:4,
+        Name:"SPEAKERS",
+        price:'7000',
+        img:'image/p4.webp',
+        cat:'',
+        type:'Featured'
+    },
+    {
+        id:5,
+        Name:"BOAT",
+        price:'6000',
+        img:'image/p5.webp',
+        cat:'',
+        type:'Featured'
+        
+    },
+    {
+        id:6,
+        Name:"phone",
+        price:'9000',
+        img:'image/p6.webp',
+        cat:'',
+        type:'Featured'
+    },
+    {
+        id:7,
+        Name:"speakers",
+        price:'6700',
+        img:'image/p7.webp',
+        cat:'',
+        type:'top'
+    },
+    {
+        id:8,
+        Name:"headphones",
+        price:'796',
+        img:'image/p8.webp',
+        cat:'',
+        type:'top'
+    },
+    {
+        id:9,
+        Name:"speakers",
+        price:'960',
+        img:'image/p9.PNG',
+        cat:'',
+        type:'top'
+    },
+   
+]
+export default HomeProduct

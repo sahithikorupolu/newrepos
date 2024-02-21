@@ -1,0 +1,285 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.home{
+    width: 100%;
+}
+
+.home .top_banner{
+    max-width: 100%;
+    height: 395px;
+    background: url('http://localhost:3000/image/slide-1.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 60px;
+}
+.home .top_banner .content{
+    width: 100%;
+    position: relative;
+    top: 20%;
+    padding: 20px;
+    margin-left: 40px;
+    
+}
+.home .top_banner .content h3{
+    text-transform: capitalize;
+    color: #cd1e76;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.home .top_banner .content h2{
+    text-transform: uppercase;
+    color: #232323;
+    letter-spacing: 1px;
+    font-size: 42px;
+    margin-top: 10px;
+}
+.home .top_banner .content p{
+    color: #232323;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.home .top_banner .content .link{
+    
+    padding: 10px 30px;
+    background: #fed700;
+    color: #232323;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.home .top_banner .content .link:hover{
+    color: #fed700;
+    background-color: #cd1e76;
+}
+.home .trending{
+    padding: 20px 30px;
+    width: 100%
+}
+.home .trending .container{
+    max-width: 100%;
+    display: flex;
+}
+.home .trending .container .left_box{
+    padding: 10px 20px;
+    width: 100%;
+    
+}
+.home .trending .container .left_box .header{
+    display: flex;
+    max-width: 100%;
+    padding: 10px;
+    background: #f6f7f8;
+    justify-content: space-between;
+}
+.home .trending .container .left_box .header .heading h2 {
+    
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #232323;
+    margin-top: 5px;
+
+}
+.home .trending .container .left_box .header .heading .cate{
+    display: flex;
+   margin-top: 5px;
+}
+
+.home .trending .container .left_box .header .heading h3{
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #232323;
+    margin-top: 5px;
+
+}
+
+.home .trending .container .left_box .header .heading .cate {
+    display: flex;
+    margin-right: 10px;
+  }
+  
+  .home .trending .container .left_box .header .cate h3{
+    text-transform: capitalize;
+    margin-right: 10px;
+    color: #232323;
+    font-size: 14px;
+    cursor: pointer;transition: 0.5s;
+  }
+  .home .trending .container .left_box .header .cate h3:hover{
+    color: #cd1e76;
+  }
+  .cate-list {
+    width: 100%;
+    margin: 0 auto; /* This centers the cate-list within its parent container */
+    display: flex;
+    justify-content: space-between; /* This evenly distributes the items */
+  }
+  
+  .container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjust as needed based on your design */
+  }
+  
+  .box {
+    width: 23%; /* Adjust the width to leave some space between items */
+    margin-bottom: 20px; /* Add margin between rows */
+    box-sizing: border-box;
+  }
+  
+  .img_box {
+    /* Add styles to the image box as needed */
+  }
+  
+  .img_box img {
+    border: 2px solid #ddd;
+    max-width: 100%;
+    height: auto;
+    display: block; /* This ensures no extra space below the image */
+  }
+  .icon {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    
+    transform: translate(-50%, -50%);
+    top: 30px;
+    border-radius: 50%;
+    padding: 5px;
+
+  }
+  .img_box {
+    position: relative;
+
+    /* Add styles to the image box as needed */
+  }
+  .icon .icon-box{
+    
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid  #ddd;
+    color: black;
+    
+  }
+  .icon-box:hover{
+    background: #cd1e76;
+  }
+  .heart{
+    margin-top: 20px;
+    margin-left:10px;
+    padding: 10px;
+    border: 1px solid black;
+    height: 40px;
+    width: 40px;
+    color: black;
+  }
+  .heart:hover{
+    background: #cd1e76;
+  }
+  .card-group {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .card1,
+  .card2 {
+    width: 25%; /* Adjust the width as needed */
+  }
+  .card img{
+    height:200px;
+    width: 250px;
+  }
+  
+  .card {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  .footer{
+    height: 490px;
+    width: 100%;
+    background: #f6f7f8;
+  }
+  .logo-2 img{
+    margin-left:50%;
+  }
+
+  .fotterh3{
+    margin-left: 5%;
+    color:#cd1e76
+  }
+  .footerp{
+    margin-left: 5%;
+    color:#cd1e76
+  }
+  .footer-line {
+    margin-top: 10px; /* Adjust as needed to control the space above the line */
+    border: 1px solid #ccc; /* Change the color and style as desired */
+  }
+  h4{
+    padding: 20px;
+    margin-left:30%;
+    top: 40%;
+  }
+  .account{
+    margin-left: 450px;
+  }
+  .about{
+    margin-left: 35%;
+  }
+  .image-container {
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .contents {
+    
+    margin-right: 20px;
+    padding: 10px;
+    background-color: #f0f0f0; /* Example background color */
+    width: 300px; /* Adjust the width as needed */
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px; /* Adjust the gap as needed */
+  }
+  
+  .card {
+    width: 100%;
+  }
+  .laptops {
+    display: flex;
+    justify-content: space-between; /* Adjust the spacing between the images */
+    align-items: center; /* Align the images vertically in the center */
+    margin-right: 10px;
+  }
+
+  .laptops img {
+    max-width: 100%; /* Ensure the images don't exceed their container */
+    height: auto; /* Maintain the aspect ratio of the images */
+    margin-right: 10px;
+  }

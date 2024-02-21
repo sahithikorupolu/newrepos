@@ -1,0 +1,62 @@
+const OfferProduct = [
+    {
+        id:1,
+        Name:'Laptop',
+        price:'26000',
+        offerPrice:'23000',
+        img:'image/L1.jpg',
+    },
+    {
+        id:2,
+        Name:'TV',
+        price:'26000',
+        offerPrice:'23000',
+        img:'image/p1.webp',
+      
+    },
+    {
+        id:3,
+        Name:'watch',
+        price:'26000',
+        offerPrice:'23000',
+        type:'laptop',
+        img:'image/W1.jpg',
+    },
+    {
+        id:4,
+        Name:'Speakers',
+        price:'26000',
+        offerPrice:'23000',
+        img:'image/S1.webp',
+    },
+    {
+        id:5,
+        Name:'Bluetooth',
+        price:'26000',
+        offerPrice:'23000',
+        
+        img:'image/B1.webp',
+    },
+    {
+        id:6,
+        Name:'Phones',
+        price:'26000',
+        offerPrice:'23000',
+        img:'image/m1.jfif',
+    },
+    {
+        id:7,
+        Name:'Smart Watch',
+        price:'26000',
+        offerPrice:'23000',
+        img:'image/SW1.jpg',
+    },
+    {
+        id:7,
+        Name:'Tab',
+        price:'26000',
+        offerPrice:'23000',
+        img:'image/T1.webp',
+    },
+]
+export default OfferProduct
